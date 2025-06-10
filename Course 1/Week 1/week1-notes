@@ -1,1 +1,30 @@
+Introduction to Machine Learning
+
+Formal Definition: Field of study that gives computers the ability to learn without being explicitly programmed. (Arthur Samuel, 1959)
+Arthur Samuel - worked on the checker problem (used ML to learn how to play the game)
+
+Types of ML Algorithms - 
+1) Supervised Learning (most real-world applications, most rapid advancements)
+2) Unsupervised Learning
+3) Recommender Systems
+4) Reinforcement Learning
+
+(Note: AGI: Artificial General Intelligence: AI possessing human-level intelligence: long way to go but based on the principle of learning algorithms.)
+
+Supervised Learning - algorithms that learn input to output mappings; learns from right answers.
+(Most lucrative form is currently used in online advertising)
+
+1) Regression - predict a number from infinitely many possible outputs (Housing Price prediction - has sizes and prices, predicts for a size not given already)
+2) Classification - predict categories which are numeric/ non-numeric; small in number; can have two or more inputs (Breast cancer detection using medical records - malignant/ benign tumors - 0/1)
+
+Unsupervised Learning - data comes with inputs x, but no output labels y; algorithm has to find structure in the data.
+(Used in applications like Google News - clustering algorithm for news recommendations)
+
+1) Clustering - forms clusters by grouping similar data points together.
+2) Anomaly detection - find unusual data points.
+3) Dimensionality reduction - compress data using fewer numbers.
+
+
+
+
 
