@@ -1,7 +1,12 @@
-Introduction to Machine Learning
+Overview of Machine Learning
 
 Formal Definition: Field of study that gives computers the ability to learn without being explicitly programmed. (Arthur Samuel, 1959)
 Arthur Samuel - worked on the checker problem (used ML to learn how to play the game)
+
+
+
+
+Supervised vs. Unsupervised Machine Learning
 
 Types of ML Algorithms - 
 1) Supervised Learning (most real-world applications, most rapid advancements)
@@ -24,6 +29,34 @@ Unsupervised Learning - data comes with inputs x, but no output labels y; algori
 2) Anomaly detection - find unusual data points.
 3) Dimensionality reduction - compress data using fewer numbers.
 
+
+
+Regression Model
+
+Linear Regression Model (one of the most widely used models) - regression models predict numbers.
+
+Useful Terminology -
+i) Training Set: Data used to train the model
+- x = "input" variable/ feature
+- y = "output"/"target" variable
+- m = number of training examples
+- (x, y) = single training example
+- (x superscript (i), y superscript (i)) = ith training example
+
+After receiving the trainining set, the learning algorithm generates a function that takes an input x and generates a prediction "y-hat" while y is the actual target value in the dataset.
+Representation of the function f: f subscript(w,b)(x) / f(x) = wx + b (w and b are parameters/ coefficients/ weights of the model)
+
+(Note: Linear regression with one variable is also called univariate linear regression.)
+
+Cost function formula
+
+Note: y hat superscript (i) = f subscript w,b (x superscript (i))
+f subscript w,b (x superscript (i)) = wx superscript (i) + b
+
+Goal: Find w, b such that y hat superscript (i) is close to y superscript (i) for all (x superscript (i), y superscript (i)).
+ 
+Error/ Cost function/ J(w,b) : 1/ 2m Summation i to m (y hat superscript (i) - y superscript (i))^ 2 where m = number of training examples (squared error cost function)
+= 1/ 2m Summation i to m (f subscript w,b (x superscript (i))) - y superscript (i))^ 2
 
 
 
