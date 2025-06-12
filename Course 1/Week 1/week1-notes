@@ -58,6 +58,5 @@ Goal: Find w, b such that y hat superscript (i) is close to y superscript (i) fo
 Error/ Cost function/ J(w,b) : 1/ 2m Summation i to m (y hat superscript (i) - y superscript (i))^ 2 where m = number of training examples (squared error cost function)
 = 1/ 2m Summation i to m (f subscript w,b (x superscript (i))) - y superscript (i))^ 2
 
-
-
+Simplifiied f subscript w (x) = wx - find a w that minimizes J(w)
 
